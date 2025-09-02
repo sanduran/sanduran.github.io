@@ -2,4 +2,4 @@
 
 # PROJECTS
 ### Simple XOX using scratch
-![XOXpreview](https://sanduran.github.io/assets/XOXpreview.gif)
+![XOXpreview](assets/XOXpreview.gif)
