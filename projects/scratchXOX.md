@@ -2,6 +2,7 @@
 
 # PROJECTS
 ### Simple XOX using scratch
-![XOXpreview](assets/XOXpreview.gif)
+![XOXpreview](assets/scratchXOX/XOXpreview.gif)
 A simple tic tac toe game made using Scratch.
 Meant to be played with two people, one click puts an X, two clicks put an O.
+![XOXcodeblocks](assets/scratchXOX/XOXcodeblocks.png)
