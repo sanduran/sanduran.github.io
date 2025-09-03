@@ -2,3 +2,5 @@
 
 # PROJECTS
 [Simple XOX](https://sanduran.github.io/projects/scratchXOX)
+
+[![Foo](http://sanduran.github.io/assets/scratchXOX/XOXcodeblocks.png)](http://sanduran.github.io/projects/scratchXOX.md)
