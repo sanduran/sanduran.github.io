@@ -2,3 +2,5 @@
 
 # PROJECTS
 [Simple XOX](https://sanduran.github.io/projects/scratchXOX)
+
+[Swift clock](https://sanduran.github.io/projects/swiftClock)
