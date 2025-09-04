@@ -6,3 +6,5 @@
 [Simple XOX](documentation/scratchXOX.md)
 
 [Swift clock](documentation/swiftClock.md)
+
+[Github pages](documentation/githubPages.md)
