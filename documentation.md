@@ -4,3 +4,5 @@
 [Learning Swift](documentation/swift.md)
 
 [Simple XOX](documentation/scratchXOX.md)
+
+[Swift clock](documentation/swiftClock.md)
