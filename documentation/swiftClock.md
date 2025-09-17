@@ -2,3 +2,4 @@
 
 # DOCUMENTATION
 ### Simple Clock made using Swift Playground
+[download for mac](https://sanduran.github.io/assets/swiftClock/ClockV2.zip)
