@@ -33,3 +33,5 @@ func switchMode() {
 }
 ```  
 I made variables for different colors I used to make theme easier to change and I added a function to toggle between light and dark modes.
+
+[download for mac](https://sanduran.github.io/assets/finalClock/finalClock.zip)
