@@ -12,4 +12,4 @@ We decided on two that we liked most.
 After the idea collecting phase we started making a desig for the clock. We took the hands of the first clock and the colors of the second and mixed them together.  
 ![preview](assets/finalClock/figmaDesign.png) 
 
-The next step was doing the programming. For that I used the code of my [previous clock project]() and made some adjustments.
+The next step was doing the programming. For that I used the code of my [previous clock project](https://sanduran.github.io/projects/swiftClock) and made some adjustments.
