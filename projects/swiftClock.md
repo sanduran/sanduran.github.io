@@ -3,6 +3,7 @@
 # PROJECTS
 ### Simple Clock made using Swift Playground
 A clock made with swift playground to play around with time.
+
 ![XOXpreview](https://sanduran.github.io/assets/swiftClock/swiftClockPreview.gif)
 
 [Documentation](https://sanduran.github.io/documentation/swiftClock.md)
