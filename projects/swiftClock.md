@@ -6,4 +6,5 @@ A clock made with swift playground to play around with time.
 
 ![XOXpreview](https://sanduran.github.io/assets/swiftClock/swiftClockPreview.gif)
 
-[Documentation](https://sanduran.github.io/documentation/swiftClock.md)
+[documentation](https://sanduran.github.io/documentation/swiftClock.md)
+[download for mac](https://sanduran.github.io/documentation/swiftClock.md)
