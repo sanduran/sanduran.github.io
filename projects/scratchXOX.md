@@ -7,4 +7,4 @@ A simple tic tac toe game made using Scratch.
 Meant to be played with two people, one clicking switches between X, O and empty.
 ![XOXcodeblocks](https://sanduran.github.io/assets/scratchXOX/XOXcodeblocks.png)
 
-[documentation](documentation/scratchXOX.md)
+[documentation](https://sanduran.github.io/documentation/scratchXOX.md)
