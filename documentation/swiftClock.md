@@ -6,14 +6,14 @@ A simple clock made to practice with swift. This was the biggest project I had d
 Sliders:  
 I wanted to add a slider to be able to control time easily but it proved to be more challenging compared to the simple buttons I had done before.  
 """  
-Slider(value: Binding(  
-  get: { Double(time) },  
-  set: { newVal in  
-    time = newVal  
-    updateTime()  
-  }),  
-    in: 0...minutesInADay-1, step: 1  
-)  
+Slider(value: Binding(
+    get: { Double(time) },
+    set: { newVal in
+        time = newVal
+        updateTime()
+    }),
+    in: 0...minutesInADay-1, step: 1
+)
 """  
 To create a slider in swift playground you need to create a Slider structure with the value, in and step parameters. The value is the current position of the slider, the in property is the range of the value and the step is the minimum amount of change for the value. I used a bining for the value to bind the value to one of my own variables.
 
