@@ -2,3 +2,4 @@
 
 # PROJECTS
 ### Simple Clock made using Swift Playground
+A clock made with swift playground to play around with time.
