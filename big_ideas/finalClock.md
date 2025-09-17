@@ -2,3 +2,4 @@
 
 # BIG IDEAS
 ### Final Clock
+![preview](assets/finalClock/finalClockPreview.gif)
