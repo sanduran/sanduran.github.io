@@ -5,7 +5,7 @@
 A simple clock made to practice with swift. This was the biggest project I had done yet and it was also better than the others. I used my previous knowledge of swift but I had to learn new stuff in addition to some math.  
 Sliders:  
 I wanted to add a slider to be able to control time easily but it proved to be more challenging compared to the simple buttons I had done before.  
-"""
+"""  
 Slider(value: Binding(
   get: { Double(time) },
   set: { newVal in
