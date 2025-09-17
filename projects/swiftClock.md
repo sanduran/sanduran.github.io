@@ -2,4 +2,5 @@
 
 # PROJECTS
 ### Simple Clock made using Swift Playground
+![XOXpreview](https://sanduran.github.io/assets/scratchXOX/.gif)
 A clock made with swift playground to play around with time.
