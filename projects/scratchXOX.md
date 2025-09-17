@@ -4,5 +4,5 @@
 ### Simple XOX using scratch
 ![XOXpreview](https://sanduran.github.io/assets/scratchXOX/XOXpreview.gif)
 A simple tic tac toe game made using Scratch.
-Meant to be played with two people, one click puts an X, two clicks put an O.
+Meant to be played with two people, one clicking switches between X, O and empty.
 ![XOXcodeblocks](https://sanduran.github.io/assets/scratchXOX/XOXcodeblocks.png)
