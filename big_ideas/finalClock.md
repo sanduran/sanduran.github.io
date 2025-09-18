@@ -2,7 +2,7 @@
 
 # BIG IDEAS
 ### Final Clock
-This is how we forged the one clock to rule them all.  
+This is how I forged the one clock to rule them all.  
 ![preview](https://sanduran.github.io/assets/finalClock/finalClockPreview.gif)  
 First things first we had to find a target audience and we cose teenagers because we are teenagers. After that we collected some ideas through google and put them on a Figjam ideas board. We tried to find designs that were minimal and simplistic to fit our target audience.
 ![preview](https://sanduran.github.io/assets/finalClock/figjamBoard.png)  
