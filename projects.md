@@ -4,3 +4,5 @@
 [Simple XOX](https://sanduran.github.io/projects/scratchXOX)
 
 [Swift clock](https://sanduran.github.io/projects/swiftClock)
+
+[Clock V5](https://sanduran.github.io/projects/clockV5)
