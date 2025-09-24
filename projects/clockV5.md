@@ -2,3 +2,4 @@
 
 # PROJECTS
 ### Simple Clock Using ForEach and Random
+![XOXpreview](https://sanduran.github.io/assets/clockV5/ClockV5Preview.gif)
