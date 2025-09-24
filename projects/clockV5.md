@@ -4,3 +4,5 @@
 ### Simple Clock Using ForEach and Random
 ![XOXpreview](https://sanduran.github.io/assets/clockV5/ClockV5Preview.gif)  
 Another clock this time made to understand how ForEach and Random works.
+
+[documentation](https://sanduran.github.io/documentation/clockV5)
