@@ -6,4 +6,4 @@ I made this clock to learn about the ForEach() and Random() functions in Swift. 
 When designing this clock, the biggest problem I faced was understanding about ranges. Both ForEach and Random use ranges as inputs so ranges were essential to completing this project.
 While making this I realised that Swift's ForEach and Random functions are very similar to Scratch's "repeat" and "pick random" blocks. ForEach and repeat are similar because you can execute a piece of code multiple times while only writing it once and Random and pick random are similar because tthey are both used to generate a random input.
 
-![code](https://sanduran.github.io/assets/clockV5/ClockV5Preview.gif)
+![code](https://sanduran.github.io/assets/clockV5/ContentView.swift)
