@@ -7,4 +7,4 @@
 
 [Github pages](documentation/githubPages.md)
 
-[Github pages](documentation/clockV5.md)
+[ClockV5](documentation/clockV5.md)
