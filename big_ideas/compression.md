@@ -26,8 +26,8 @@ The JPEG file was surprisingly high quality while also being much smaller in siz
 Interestingly, the ZIP file was bigger than the original file. This is because PNG files use a similar compression method to ZIP files and compressing a file with the same algorithm twice doesn't work. Instead ZIP files are better at compressing raw text documents so I compressed the entire bee movie script to test it.  
 | Format | File Size(KB) |
 |:---:|---:|
-| Text(original) | 49.474 |
-| ZIP(lossless) | 21.126 |
+| [Text(original)](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/BeeMovieScript) | 49.474 |
+| [ZIP(lossless)](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/BeeMovieScript.zip) | 21.126 |
 
 As expected when compressing a text document, ZIP did way better compared to compressing the PNG file.
 
@@ -35,9 +35,9 @@ As expected when compressing a text document, ZIP did way better compared to com
 Original file size: 22.2 MB  
 | Compression Method | File Size(MB) | % Reduction | Quality Loss |
 | --- | ---: | ---: | --- |
-| H.264 60% target size | 12.6 | 43% | blurry |
-| H.264 worst file quality | 5.1 | 77% | extremely pixelated |
-| Clideo basic | 18.3 | 18% | slightly pixelated on the edges |
-| Clideo strong | 13.6 | 39% | slightly blurry and pixelated on the edges |
+| [H.264 60% target size](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/seriousVdeo_H264_60%.mp4) | 12.6 | 43% | blurry |
+| [H.264 worst file quality](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/seriousVdeo_H264_worstFileQuality.mp4) | 5.1 | 77% | extremely pixelated |
+| [Clideo basic](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/seriousVdeo_ClideoBasic.mp4) | 18.3 | 18% | slightly pixelated on the edges |
+| [Clideo strong](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/seriousVdeo_ClideoStrong.mp4) | 13.6 | 39% | slightly blurry and pixelated on the edges |
 
 Between these methods the first one strikes the balance between quality and balance best. It doesn't look very different from the original but is almost half the size. In cases like this lossy compression is acceptible because it doesnt affect the final result very much and still conveys the same essential information. However if lossy compression loses essential information, it is not acceptable.
