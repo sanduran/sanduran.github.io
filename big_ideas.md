@@ -2,3 +2,4 @@
 
 # BIG IDEAS
 [Final clock](big_ideas/finalClock.md)
+[Final clock](big_ideas/compression.md)
