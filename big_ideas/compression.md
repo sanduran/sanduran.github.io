@@ -13,7 +13,8 @@ To see how different file types compress data, I converted a PNG image to JPEG a
 |:-------------:|--------------:|------------------------------------:|
 | PNG(original) | 8254.122      | original                            |
 | JPEG(lossy)   | 789.283       | close to none(slightly more blurry) |
-| ZIP(lossless) | 8257.359      | none                                |  
+| ZIP(lossless) | 8257.359      | none                                |
+
 The JPEG file was surprisingly high quality while also being much smaller in size. This is because JPEG was made to make digital images easier to store, send, and display when computers and the interned had little memmory and speed.
 
 *Original PNG file (Kingdom COme Deliverance II Wallpaper)*
@@ -26,5 +27,6 @@ Interestingly, the ZIP file was bigger than the original file. This is because P
 | Format | File Size(KB) |
 |:---:|---:|
 | Text(original) | 49.474 |
-| ZIP(lossless) | 21.126 |  
+| ZIP(lossless) | 21.126 |
+
 As expected when compressing a text document, ZIP did way better compared to compressing the PNG file.
