@@ -17,7 +17,9 @@ To see how different file types compress data, I converted a PNG image to JPEG a
 The JPEG file was surprisingly high quality while also being much smaller in size. This is because JPEG was made to make digital images easier to store, send, and display when computers and the interned had little memmory and speed.
 
 *Original PNG file (Kingdom COme Deliverance II Wallpaper)*
+![OriginalPNG](https://sanduran.github.io/assets/compression/KCDWallpaper.png)
 
 *Compressed JPEG file*
+![CompressedJPG](https://sanduran.github.io/assets/compression/KCDWallpaper.jpg)
 
 Interestingly, the ZIP file was bigger than the original file.
