@@ -3,4 +3,4 @@
 # BIG IDEAS
 [Final clock](https://sanduran.github.io/big_ideas/finalClock)
 
-[Compression](big_ideas/compression.md)
+[Compression](https://sanduran.github.io/big_ideas/compression)
