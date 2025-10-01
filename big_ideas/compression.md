@@ -13,7 +13,7 @@ To see how different file types compress data, I converted a PNG image to JPEG a
 |:-------------:|--------------:|------------------------------------:|
 | [PNG(original)](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/KCDWallpaper.png) | 8254.122 | original |
 | [JPEG(lossy)](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/KCDWallpaper.jpg) | 789.283 | close to none(slightly more blurry) |
-| [ZIP(lossless)](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/KCDWallpaper.zip) | 8257.359 | none |
+| [ZIP(lossless)](https://github.com/sanduran/sanduran.github.io/tree/main/assets/compression/KCDWallpaper.png.zip) | 8257.359 | none |
 
 The JPEG file was surprisingly high quality while also being much smaller in size. This is because JPEG was made to make digital images easier to store, send, and display when computers and the interned had little memmory and speed.
 
