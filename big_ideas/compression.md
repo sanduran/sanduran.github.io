@@ -23,4 +23,10 @@ The JPEG file was surprisingly high quality while also being much smaller in siz
 *Compressed JPEG file*
 ![CompressedJPG](https://sanduran.github.io/assets/compression/KCDWallpaper.jpg)
 
-Interestingly, the ZIP file was bigger than the original file.
+Interestingly, the ZIP file was bigger than the original file. This is because PNG files use a similar compression method to ZIP files and compressing a file with the same algorithm twice doesn't work. Instead ZIP files are better at compressing raw text documents so I compressed the entire bee movie script to test it.
+| Format | File Size(KB) |
+|:---:|---:|
+| Text(original) | 49.474 |
+| ZIP(lossless) | 21.126 |
+
+As expected when compressing a text document, ZIP did way better compared to compressing the PNG file.
