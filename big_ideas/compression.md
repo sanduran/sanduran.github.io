@@ -2,10 +2,10 @@
 
 # BIG IDEAS
 ### Data Compression
-Compression is the process of reduceng the size of data by encoding it efficiently without losing essential information.
-###### Lossless Compression  
+Compression is the process of reducing the size of data by encoding it efficiently without losing essential information.
+##### Lossless Compression  
 Lossles compression is compressing a file in a way that will not get any information lost. You have the be able to recreate the original perfectly from the compressed file, without any losses.
-###### Lossy Compression
+##### Lossy Compression
 However in lossy compression, some information may be lost in order to make the file smaller.
 
 To see how different file types compress data, I converted a PNG image to JPEG and ZIP files.
