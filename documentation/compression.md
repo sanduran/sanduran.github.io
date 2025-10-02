@@ -1,7 +1,7 @@
 [home](https://sanduran.github.io) | [projects](https://sanduran.github.io/projects) | [big ideas](https://sanduran.github.io/big_ideas) | [documentation](https://sanduran.github.io/documentation)
 
 # DOCUMENTATION
-### Simple Clock using ForEach() and Random()
+### Data Compression
 
 ##### Why Data Is Compressed  
 Data compression reduces the size of data to save storage space and/or speed up transmission over networks. Scientifically, it exploits redundancy and patterns in data.  
