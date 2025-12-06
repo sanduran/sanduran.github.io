@@ -4,16 +4,10 @@
 ### A Simple Pixel Painter
 
 #### 1)
-We make a list by counting from 0 up to 99. This gives us 100 numbers total. Each number represents one cell in the grid.
-
-Example in words:  
-“Start at 0 and keep adding 1 until you reach 99.”
-
-#### 2)
 We use two loops(one loop for rows, one loop for columns):  
 The outer loop goes through each column (0 to 9). Inside it, another loop goes through each row (0 to 9). Each time both loops run once, one square is drawn. Adding up to a total of 100 squares.
 
-#### 3)
+#### 2)
 Row number = vertical position  
 Column number = horizontal position
 
@@ -22,7 +16,7 @@ cell index = (row × 10) + column
 
 This gives every square a unique number from 0 to 99.
 
-#### 4)
+#### 3)
 When the user presses the Confirm button:
 ###### 1, The program checks if:
   - The grid number is a real number
