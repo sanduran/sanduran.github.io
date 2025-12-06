@@ -12,3 +12,5 @@
 [Compression](documentation/compression.md)
 
 [Scoop Overflow](documentation/scoopOverflow.md)
+
+[Pixel Painter](documentation/pixelPainter.md)
