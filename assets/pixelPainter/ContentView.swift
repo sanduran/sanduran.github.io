@@ -81,6 +81,10 @@ struct ContentView: View {
     @State var blueStr:String = ""
     @State var paletteList:Array<Color> = [Color.gray, Color.gray, Color.gray, Color.gray, Color.gray]
     
+    // Variables for invalid input message
+    @State var promptColor:Color = Color.gray
+    @State var promptText:String = "Enter a grid number:"
+    
     func idToCoord(_ id:Int) -> Array<Int>{
         let x:Int = id % gridx
         let y:Int = id / gridy
@@ -103,31 +107,45 @@ struct ContentView: View {
         VStack {
             HStack {
                 VStack { // Text input
-                    TextField("Enter a grid number:", text: $selectedGridStr)
+                    TextField("", text: $selectedGridStr, prompt: Text(promptText).foregroundColor(promptColor))
                     TextField("Red:", text: $redStr)
                     TextField("Green:", text: $greenStr)
                     TextField("Blue:", text: $blueStr)
-                }
+                }.textFieldStyle(.roundedBorder)
                 
                 Button("Confirm") { // Button input
-                    if let selectedGridInt = Int(selectedGridStr),
-                       let red = Int(redStr),
-                       let green = Int(greenStr),
-                       let blue = Int(blueStr) {
-                        
-                        updateColorList(
-                            Int(selectedGridInt),
-                            Color(
-                                red:Double(red)/255,
-                                green:Double(green)/255,
-                                blue:Double(blue)/255
-                            )
-                        )
-                        updatePaletteList(Color(
-                            red:Double(red)/255,
-                            green:Double(green)/255,
-                            blue:Double(blue)/255
-                        ))
+                    if let selectedGridInt = Int(selectedGridStr) {
+                        if selectedGridInt < 100 && selectedGridInt >= 0 {
+                            promptColor = Color.gray
+                            promptText = "Enter a grid number:"
+                            
+                            if let red = Int(redStr), let green = Int(greenStr), let blue = Int(blueStr) {
+                                
+                                updateColorList(
+                                    Int(selectedGridInt),
+                                    Color(
+                                        red:Double(red)/255,
+                                        green:Double(green)/255,
+                                        blue:Double(blue)/255
+                                    )
+                                )
+                                updatePaletteList(
+                                    Color(
+                                        red:Double(red)/255,
+                                        green:Double(green)/255,
+                                        blue:Double(blue)/255
+                                    )
+                                )
+                            }
+                        } else {
+                            selectedGridStr = ""
+                            promptColor = Color.red
+                            promptText = "Enter a valid number(0-99):"
+                        }
+                    } else {
+                        selectedGridStr = ""
+                        promptColor = Color.red
+                        promptText = "Enter a valid number(0-99):"
                     }
                 }
                 .buttonStyle(.bordered)
