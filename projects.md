@@ -8,3 +8,5 @@
 [Clock V5](https://sanduran.github.io/projects/clockV5)
 
 [Scoop Overflow](https://sanduran.github.io/projects/scoopOverflow)
+
+[Pixel Painter](https://sanduran.github.io/projects/pixelPainter)
