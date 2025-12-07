@@ -3,4 +3,4 @@ home](https://sanduran.github.io) | [projects](https://sanduran.github.io/projec
 ### A Simple Pixel Painter
 A pixel painting app with a 10x10 grid and rgb color input.
 
-[Code](documentation/pixelPainter.md)
+[Code](https://sanduran.github.io/documentation/pixelPainter)
