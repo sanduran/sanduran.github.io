@@ -13,3 +13,5 @@
 - Add a test functionality where users can take quick tests on the flashcards they created.
 - Allow images on flashcards.
 - Improve the visual design.
+
+![memrPreview](<https://sanduran.github.io/assets/memr/Screen Recording 2026-06-04 at 23.44.44.mov>)  
